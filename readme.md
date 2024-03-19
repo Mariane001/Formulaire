@@ -26,5 +26,7 @@
 
 1. html
 2. css
-   ![cover](./asset/undraw_education_f8ru.svg)
+
+
+*   ![cover](./asset/undraw_education_f8ru.svg)
    [![forthebadge](https://forthebadge.com/images/featured/featured-uses-html.svg)](https://forthebadge.com)
