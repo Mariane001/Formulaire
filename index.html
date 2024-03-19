@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Formulaire">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Formulaire de contact</h1>
+    </header>
+    <aside>
+        <figure>
+            <img src="./asset/undraw_education_f8ru.svg" alt="logo">
+            <figcaption>
+                <h2>
+                    Description
+                </h2>
+            </figcaption>
+        </figure>
+    </aside>
+    <main>
+        <fieldset >
+            <legend>Remplir le formulaire</legend>
+            <form action="https://www.google.com/search" method="get" target="_blank">
+                <label for="query">Recherche</label>
+                
+                <div class="wrapper" role="group" aria-describedby="search submit >
+                    <div id="search" class="search-input">
+                        <input type="text" name="q" id="query" placeholder="search" aria-required="true" required>
+                        <input type="submit" value="Envoyer">
+                    </div>
+                        <div id="submit"><button type="submit">Recherche</button></div>
+                </div>
+            </form>
+        </fieldset>
+    </main>
+    <footer>
+        <p>&copy; -MAH - <time datetime="2024/19/03">2024</time></p>
+    </footer>
+</body>
+</html>

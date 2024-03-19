@@ -1,0 +1,65 @@
+/* reset.css */
+/* reset de base */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+html { 
+  font-size: 62.5%;
+  block-size: border-box;
+  scroll-behavior: smooth;
+  background:linear-gradient( to top, rgba(0,0,0,0.6) 50%, rgba(0,0,0,0.6) 50%), 
+  url(../asset/cover-batman.jpg)no-repeat fixed center center / cover;
+/*   background-image: #000 url(../asset/cover-batman.jpg)no-repeat fixed center center / cover ; */}
+
+/* style supplémentaire */
+body {
+  font: 1.6rem "roboto slab", sans-serif ;
+  line-height: 1.6;
+  margin: 0;
+  letter-spacing: 0.1rem; /* espace entre les lettres */
+  font-weight: 200;
+  object-fit: cover;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+*,::before, *::after {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, figure, blockquote, ol, ul{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+header h1{
+  size: 4px;
+}
+
+a { text-decoration: none; }
+
+img{display: inline-block;
+vertical-align: middle;
+object-fit: cover;
+}
+
+input, button{
+  border: 0;
+
+}
+input {
+width: 100%;
+}
+button{
+  background: none;
+  color: #fff;
+  font-style: inherit;
+  text-align: center;
+}
+
+button{
+  background: none;
+  color: #fff;
+  font-size: inherit;
+  cursor: pointer;
+}

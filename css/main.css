@@ -1,0 +1,39 @@
+@import url(./reset.css);
+:root{
+    --bg-color: #202124;
+    --bg-color-form: #303134;
+    --color-text: #fff;
+}
+body{
+    background-color: var(--bg-color);
+    color: var(--color-text);
+    display: grid;
+    grid-template-rows: auto auto 1fr auto;
+    height: 100vh;
+}
+fieldset,aside{
+    max-width: 80rem;
+    margin: 0 auto;
+}
+aside{
+    max-width: 50rem;
+    padding: 5rem 0;
+}
+figure img{
+    width: 100%;
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: 90% 10%;
+    background-color: var(--bg-color-form);
+}
+
+header h1, footer p{
+    text-align: center;
+}
+.search-input, #submit{
+    padding: .5rem;
+}.search-input, input{
+    background-color: var(--bg-color-form);
+    color: var(--color-text);
+}
